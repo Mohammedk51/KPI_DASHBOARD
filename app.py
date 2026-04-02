@@ -17,7 +17,9 @@ def calculate_kpis(df: pd.DataFrame) -> dict:
     total_revenue = float(df["revenue"].sum())
     total_expenses = float(df["expenses"].sum())
     net_cash_flow = total_revenue - total_expenses
-    margin_pct = (net_cash_flow / total_revenue * 100) if total_revenue else 0.0
+    margin_pct = (
+        (net_cash_flow / total_revenue * 100) if total_revenue else 0.0
+    )
 
     return {
         "total_revenue": total_revenue,
