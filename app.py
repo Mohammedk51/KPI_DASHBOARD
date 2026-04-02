@@ -43,10 +43,10 @@ def main() -> None:
 
     fig = px.line(df, x="month", y=["revenue", "expenses"], markers=True)
     fig.update_layout(title="Revenue vs Expenses Trend")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.subheader("Data Preview")
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width="stretch")
 
 
 if __name__ == "__main__":
