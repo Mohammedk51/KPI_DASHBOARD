@@ -33,9 +33,11 @@ It runs on push and PR for both `develop` and `main`, and executes:
 - `flake8 .`
 - `pytest -q`
 
+CI installs runtime deps from `requirements.txt` and dev tools from `requirements-dev.txt`.
+
 ## 4) CD (Streamlit Cloud)
 
-This repo includes `runtime.txt` to pin the Python version on Streamlit Cloud.
+Streamlit Community Cloud lets you choose the Python version from the deploy UI (Advanced settings).
 
 1. Push this project to GitHub.
 2. Go to [https://share.streamlit.io](https://share.streamlit.io)
