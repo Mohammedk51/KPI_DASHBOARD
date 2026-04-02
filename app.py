@@ -30,9 +30,12 @@ def calculate_kpis(df: pd.DataFrame) -> dict:
 
 
 def main() -> None:
-    st.set_page_config(page_title="KPI Dashboard", layout="wide")
-    st.title("Interactive Business KPI Dashboard (MVP)")
-    st.caption("Simple Streamlit starter app with CI/CD-ready structure")
+    """
+    Main function to run the Streamlit dashboard.
+    """
+    # This is a test comment to trigger the CI/CD pipeline.
+    st.set_page_config(layout="wide")
+    st.title("📈 KPI Dashboard")
 
     df = get_sample_data()
     kpis = calculate_kpis(df)
