@@ -33,8 +33,6 @@ It runs on push and PR for both `develop` and `main`, and executes:
 - `flake8 .`
 - `pytest -q`
 
-CI installs runtime deps from `requirements.txt` and dev tools from `requirements-dev.txt`.
-
 ## 4) CD (Streamlit Cloud)
 
 Streamlit Community Cloud lets you choose the Python version from the deploy UI (Advanced settings).
