@@ -34,7 +34,7 @@ def main() -> None:
     Main function to run the Streamlit dashboard.
     """
     st.set_page_config(layout="wide")
-    st.title("📈 KPI Dashboard")
+    st.title("📈 KPI Dashboard (Updated)")
 
     df = get_sample_data()
     kpis = calculate_kpis(df)
