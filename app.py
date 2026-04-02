@@ -33,7 +33,6 @@ def main() -> None:
     """
     Main function to run the Streamlit dashboard.
     """
-    # This is a test comment to trigger the CI/CD pipeline.
     st.set_page_config(layout="wide")
     st.title("📈 KPI Dashboard")
 
