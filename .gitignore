@@ -8,18 +8,20 @@ __pycache__/
 venv/
 ENV/
 
-# Conda
-.conda/
+# Data / DB (generated at runtime)
+data/
+*.db
 
 # Unit test / coverage
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Streamlit
+# Streamlit secrets
 .streamlit/secrets.toml
 
 # OS / Editor
 .DS_Store
 Thumbs.db
 .vscode/
+.idea/

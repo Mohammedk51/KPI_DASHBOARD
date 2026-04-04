@@ -1,0 +1,85 @@
+/* KPI Dashboard - Dark Theme */
+#MainMenu, footer, header { visibility: hidden; }
+.stDeployButton { display: none; }
+
+.block-container {
+    padding: 1.2rem 2rem 3rem 2rem !important;
+    max-width: 1320px;
+}
+
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0D0F14 0%, #14161D 100%);
+    min-width: 260px;
+}
+
+div[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #181B22, #1E212A);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 14px;
+    padding: 20px 22px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+div[data-testid="stMetricLabel"] p {
+    font-size: 0.72rem !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #7B7F96 !important;
+}
+div[data-testid="stMetricValue"] {
+    font-size: 1.55rem !important;
+    font-weight: 700 !important;
+    color: #F0F0F5 !important;
+}
+
+.login-spacer { height: 48px; }
+.login-brand {
+    text-align: center;
+    padding: 0.6rem 0 1.2rem 0;
+}
+.login-icon { font-size: 3rem; margin-bottom: 0.5rem; }
+.login-brand h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    background: linear-gradient(135deg, #636EFA, #AB63FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.login-brand p {
+    color: #7B7F96;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem 0;
+}
+.sidebar-logo { font-size: 1.5rem; }
+.sidebar-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #E8E8F0;
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: linear-gradient(145deg, #161920, #1b1f28);
+    border-color: rgba(255,255,255,0.08) !important;
+    border-radius: 18px !important;
+}
+
+[data-testid="stForm"] {
+    background: #15171D;
+    border: 1px solid rgba(255,255,255,0.05);
+    border-radius: 14px;
+    padding: 1.3rem 1.6rem;
+}
+
+hr {
+    border-color: rgba(255,255,255,0.04) !important;
+    margin: 1rem 0 !important;
+}

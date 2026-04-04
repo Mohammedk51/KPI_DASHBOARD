@@ -1,5 +1,7 @@
-streamlit
-pandas
-plotly
+streamlit>=1.31.0
+pandas>=2.1.0
+plotly>=5.18.0
+bcrypt>=4.1.0
+PyJWT>=2.8.0
 pytest
 flake8
